@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="ia.mxsurveyform.MxSurveyForm" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Mx Survey Form</name>
+    <description>Integrate surveyjs in Mendix</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="sampleText" type="string" required="false">
+                <caption>Default value</caption>
+                <description>Sample text input</description>
+                
+            </property>
+            <property key="licenseKey" type="string" required="false">
+                <caption>License Key</caption>
+                <description>Provide License Key</description>
+                
+            </property>
+             <property key="surveyJson" type="attribute">
+                <caption>Survey Schema</caption>
+                <description>Schema definition of Survey in JSON format.</description>
+                 <attributeTypes>
+                        <attributeType name="String"/>
+                         
+                 </attributeTypes>
+            </property>
+             <property key="surveyResults" type="attribute">
+                <caption>Survey Results</caption>
+                <description>Stores the completed survey results as a JSON string.</description>
+                 <attributeTypes>
+                        <attributeType name="String"/>
+                         
+                 </attributeTypes>
+            </property>
+           
+        </propertyGroup>
+        <propertyGroup caption="Action">
+                 
+           
+
+            <property key="onSurveyComplete" type="action">
+                <caption>On Survey Complete</caption>
+                <description>Triggered when the survey is completed.</description>
+            </property>
+
+
+            <systemProperty key="TabIndex"/>
+        </propertyGroup>
+    </properties>
+</widget>
