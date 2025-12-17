@@ -6,7 +6,8 @@ Survey definitions are provided as JSON, and responses are returned to Mendix fo
 This widget focuses purely on **runtime rendering**. Survey design is expected to be done externally.  
 Ideal for Mendix applications that require dynamic surveys without embedding a visual designer.
 
-<img width="1492" height="756" alt="image" src="https://github.com/user-attachments/assets/11c6e681-1e8f-4c21-bcef-a62b8ed3566b" />
+<img width="1846" height="662" alt="image" src="https://github.com/user-attachments/assets/87c66126-1400-4e41-bd16-8ed110ef59ba" />
+*Sample Mendix application using the SurveyJS Runtime Widget*
 
 
 ## Features
@@ -104,7 +105,9 @@ A sample Mendix app is provided showing:
 - Completion microflow
 
 See /sample-app in the GitHub repository.
-<img width="1846" height="662" alt="image" src="https://github.com/user-attachments/assets/87c66126-1400-4e41-bd16-8ed110ef59ba" />
+
+<img width="1492" height="756" alt="image" src="https://github.com/user-attachments/assets/11c6e681-1e8f-4c21-bcef-a62b8ed3566b" />
+*Survey rendered using SurveyJS runtime (design via external creator)*
 
 ## Credits
 
